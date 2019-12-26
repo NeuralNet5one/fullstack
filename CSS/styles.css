@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  background-color: #EAF6F6;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  color: #66BFBF;
+  padding-top: 100px;
+}
+
+hr {
+  border: none;
+  border-top: dotted 10px;
+  width: 10%;
+  color: #848a89;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+}
+
+.sub {
+  font-weight: normal;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: medium;
+  color: #11999E;
+  padding: 20px;
+}
+
+.top-container {
+  background-color: lightblue;
+  position: relative;
+  margin: 0;
+}
+
+.middle-container {
+  margin: 100px;
+}
+
+.bottom-container {
+  padding-top: 90px;
+  background-color: lightblue;
+  margin: 0;
+  height: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+#photo {
+  width: 150px;
+  border-radius: 100px;
+}
+
+.codewar {
+  width: 100px;
+  height: 70px;
+  border-radius: 50%;
+  float: left;
+  padding: 30px;
+}
+
+.codewar2 {
+  width: 100px;
+  height: 70px;
+  border-radius: 50%;
+  float: right;
+  margin-left: 10px;
+}
+
+.btn {
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  background-color: #2dabf9;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Trebuchet MS;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px 31px;
+  text-decoration: none;
+  text-shadow: 0px 2px 10px #263666;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  background-color: #0688fa;
+}
+
+.btn:active {
+  position: relative;
+  top: 1px;
+}
